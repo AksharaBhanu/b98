@@ -1,0 +1,149 @@
+xpath-> path of the element in html tree
+./html/body/a
+.--> root element
+/--> child elememt
+
+we can use index--> start from 1 --> ./html/body/a[1]
+we can combine 2 xpath--> |      /html/body/div[1]/input|/html/body/div[1]/input[1]
+
+/html/body/div[6]/div/div[11]/div[1]/div[2]/div[2]/div/div/div[1]/div/div/div/div/div/div/div/div[1]/div/span/a/div/div/div/span
+
+/html/body/div[1]/input[1]
+
+full xpath also called as absolute xpath  ->easy to understand but difficult to write
+relative xpath--> we use // which means descendant ->we goto any element directly
+ex: 
+//html 
+//body 
+//a
+
+index or local index
+
+group index global index
+
+//a---> 10
+//a[1]-> 3 l1 l4 l7
+//a[2]->L2 L5 L8
+//a[3]--> L3 L6 L9
+//a[4]--> L10
+
+(//a)[1]--> L1
+(//a)[7]-> L7
+(//a)[10]-> L10
+(//a)[last()]->L10
+(//a)[last()-1]--> L9
+
+(//a)[position()]---> L1 to L10
+(//a)[position()>7]--> L8 L9 L10
+(//a)[position()<3]--> l1 L2
+(//a)[position() mod 2=0]--> L2 L4 L6 L8 L10
+(//a)[position() mod 2=1]--> l1 L3 L5 L7 L9
+(//a)[position() <3 or position() >7 ]--> L1 L2 L8 L9 L10
+
+//img--------------> all the images
+//img[1]-----------> all the images whose index is 1
+(//img)[1]-----------> only the 1st image
+(//img)[1]|(//img)[last()]--> 2 images 1st and last image
+(//img)[1]|(//a)[last()]
+
+
+we can use attributes and text in xpath
+tag[@AN='av']      tag[text()='tv']
+
+tag[@AN='av' and @AN2='av2' ] ----> tag[AN='av'][AN2='av2']
+tag[@AN='av' or @AN2='av2' ] ----> tag[AN='av'],[AN2='av2']
+tag[not(@AN='av')]----> tag:not([AN='av'])
+
+ 
+<a id="a1" name="n1" class="c1" title="click here" href="http://www.fb.com">My Google</a>
+//a[@href='http://www.fb.com']
+
+ 
+<a id="a1" name="n1" class="c1" title="click here" href="http://www.google.com">My Google</a>
+//a[@href='http://www.google.com']
+
+
+
+<button class="btn btn-lg btn-primary" name="login-button" type="submit">Go</button>
+
+//button[@name="login-button"]
+//button[@type="submit"]
+//button[text()='Go']
+//button[@type='submit' and text()='Go']
+
+in xpath * can be used inplace of tagName -> if tag name is keep changing or we dont know the tagname
+//*[@type='submit' and text()='Go']
+
+
+
+<input class="oxd-input oxd-input--active" name="username" placeholder="Username" autofocus="" data-v-1f99f73c="">
+//input[@name='username']
+
+
+<input class="oxd-input oxd-input--active" type="password" name="password" placeholder="Password" data-v-1f99f73c="" wfd-id="id2">
+//input[@name='password']
+
+
+<button type="submit" class="oxd-button oxd-button--medium oxd-button--main orangehrm-login-button" data-v-10d463b7="" data-v-0af708be=""><!----> Login <!----></button>
+
+//button[@type='submit']
+
+//button[text()=' Login ']
+
+
+
+
+<h5 class="elementor-heading-title elementor-size-default">© 2024 Akshara Training. All rights reserved.</h5>
+//h5[text()='© 2022 Akshara Training. All rights reserved.']
+
+
+contains function
+//tag[contains(arg1,arg2)]
+arg1--> @AN       text()
+arg2--> AV	 tv
+
+//tag[contains(@AN,'av')]			//tag[contains(text(),'tv')]
+
+
+//h5[contains(text(),'All rights')]
+
+//h5[contains(text(),'©')]
+
+<a .....................>inbox(3)</a>  ----> how do u handle it?---->By.partialLinkText("inbox")
+without using---> //a[contains(text(),'inbox')]
+
+<span .....................>inbox(3)</span>----> how do u handle it? (we cant use partialLinkText)
+xpath--> 
+//span[contains(text(),'inbox')]
+//*[contains(text(),'inbox')]
+
+Day1---> By.partialLinkText("Day") or //a[contains(text(),'Day')  //a[starts-with(text(),'Day') 
+
+<a href="http://www.google.com">
+
+//a[starts-with(@href,'http')]
+//a[contains(@href,'google')]  //a[contains(@href,'http')]  //a[contains(@href,'com')]
+//a[ends-with(@href,'com')] -----------> we cant use in selenium ---> browser 
+
+
+latest version of xpath is 3.1 but browser supports on xpath 1.0 which do not have ends-with function
+hence in selenium we cant use ends-with
+
+last()
+position()
+starts-with()
+[ends-with()]
+operators --> and or not | > < >= <= 
+
+
+text()
+contains()
+
+
+goto FB.com gmail.com naukri.com flipkart.com--- 4 to 5 xpath
+
+
+
+
+
+
