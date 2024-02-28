@@ -1,0 +1,89 @@
+pkg->org.openqa.selenium.chrome.ChromeDriver
+cls->public class ChromeDriver extends ChromiumDriver
+
+pkg->org.openqa.selenium.edge.EdgeDriver
+cls->public class EdgeDriver extends ChromiumDriver
+
+pkg->org.openqa.selenium.firefox.FirefoxDriver
+cls->public class FirefoxDriver extends RemoteWebDriver
+
+pkg->org.openqa.selenium.safari.SafariDriver
+cls->public class SafariDriver extends RemoteWebDriver
+
+pkg->org.openqa.selenium.chromium.ChromiumDriver
+cls->public class ChromiumDriver extends RemoteWebDriver
+
+pkg->org.openqa.selenium.remote.RemoteWebDriver
+cls->public class RemoteWebDriver
+    implements WebDriver,JavascriptExecutor,TakesScreenshot {
+
+pkg->org.openqa.selenium.WebDriver
+cls->public interface WebDriver extends SearchContext
+
+pkg->org.openqa.selenium.SearchContext
+cls->public interface SearchContext
+
+pkg->org.openqa.selenium.JavascriptExecutor
+public interface JavascriptExecutor
+
+pkg->org.openqa.selenium.TakesScreenshot
+cls-public interface TakesScreenshot
+
+Architecture of Selenium-WebDriver
+Selenium 
+WebDriver 
+2006--> Selenium WebDriver
+
+1. in Selenium for every browser we have respective Driver class ex: For Chrome Browser ChromeDriver......
+2. Both ChromeDriver & EdgeDriver inherits from ChromiumDriver
+3. ChromiumDriver,FirefoxDriver & SafariDriver inherits from RemoteWebDriver
+4. RemoteWebDriver implements 9 interfaces such as WebDriver,JavaScriptExecutor,TakesScreenshot
+5. WebDriver interface extends SearchContext
+
+1. which is supermost class?
+  RemoteWebDriver
+2. which is the supermost interface?
+  SearchContext
+3. which is the protocol used by Selenium?
+   W3C protocol--> WWWC  (in selenium3 - JSON Wire)
+
+What is upcasting?
+Converting child object type to parent type
+
+example:
+WebDriver driver = new ChromeDriver();
+
+why?
+to execute same script on any browser
+
+
+How to enter url without using get method?
+driver.navigate().to("url");
+
+
+what is the diff b/w get & to
+get will enter the url and load the page
+to method will call get method
+
+give me an example for method overloading in selenium?
+driver.naviaget().to(String url);
+driver.naviaget().to(URL url);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

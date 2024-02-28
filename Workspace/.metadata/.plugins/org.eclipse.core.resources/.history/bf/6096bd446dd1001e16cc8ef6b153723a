@@ -1,0 +1,19 @@
+package w;
+class Emp
+{
+	String name;
+	
+	Emp(String name)
+	{
+		this.name=name;
+	}
+}
+public class Demo3 {
+
+	public static void main(String[] args) {
+		Emp e1=new Emp("Bhanu");
+		
+
+	}
+
+}

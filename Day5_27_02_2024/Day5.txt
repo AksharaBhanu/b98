@@ -1,0 +1,70 @@
+Locators
+tagName, id, name,className,linkText,partialLinkText,cssSelector,xpath
+
+cssSelector-->
+Cascading Style Sheets
+syntax: tag[AN='av']
+
+<a id="a1" name="n1" class="c1" title="click here" href="http://www.google.com">My Google</a>
+
+example for cssSelector
+a[id='a1']
+
+how to verify this?
+1. open dev toolbar
+2. click on html tree and press ctrl+f
+3. type the cssselector in 'Find' box
+
+can we use double quote in cssSelector?
+yes , but in java we have to use \"
+
+limitation of cssSelector?
+we cant use text of the element
+
+Note: we can use only id name and class directly in locators, to use other attributes we should use
+cssSelector or xpath
+
+we can write cssSelector 
+1.without using tagname--->[name='login-button']
+2.without using attribute--> button
+a[id='a1']----> a#a1--> #a1
+
+what is # in cssSelector?
+it represents id
+
+. ---> class
+a[class='c1']
+a.c1
+.c1
+
+in cssSelector
+we can use 
+AND---> a[id='a1'][name='n1']---> tag should be a AND id should be a1 AND name should be n1
+OR--->a[id='a1'],[name='n1']---> tag should be a AND id should be a1 OR name should be n1
+NOT--> a:not(#a1)--> tag should be a and id !=a1
+
+XPATH
+---> path of the element in HTML tree
+
+./html/body/a
+
+we can verify in page
+open dev tool bar, press ctrl+f in html tree, type xpath
+
+dot at the begining represents root element
+using dot is not mandatory->/html/body/a 
+/ represent child element
+
+in xpath index starts from 1
+
+/html[1]/body[1]/a[1]
+/html/body/a[1]
+/html/body/a[2]
+/html/body/a[0]  //NSEE
+
+if we dont use index -> it means all
+
+
+
+
+

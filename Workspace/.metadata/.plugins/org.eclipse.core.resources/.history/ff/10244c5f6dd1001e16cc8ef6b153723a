@@ -1,0 +1,24 @@
+package w;
+class Emp
+{
+	String name;
+	
+	Emp(String name)
+	{
+		this.name=name;
+	}
+	
+	public String toString()
+	{
+		return name;
+	}
+}
+public class Demo3 {
+
+	public static void main(String[] args) {
+		Emp e1=new Emp("Bhanu");
+		
+		System.out.println(e1);
+	}
+
+}

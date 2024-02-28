@@ -1,0 +1,20 @@
+package w;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Demo2 {
+
+	public static void main(String[] args) {
+		ArrayList<String> a=new ArrayList<String>();
+		a.add("Mango");
+		a.add("Grapes");
+		a.add("Apple");
+		
+		System.out.println(a);
+		
+		Collections.sort(a);
+
+	}
+
+}

@@ -1,0 +1,60 @@
+package w;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+
+class Emp implements Comparable<Emp>
+{
+	String name;
+	
+	Emp(String name)
+	{
+		this.name=name;
+	}
+	
+	public String toString()
+	{
+		return name;
+	}
+
+	
+	public int compareTo(Emp e2) {
+		String name1=this.name;
+		String name2=e2.name;
+		return name1.compareTo(name2);//A to Z
+	}
+}
+
+class EmpSorting implements Comparator<Emp>
+{
+
+
+	public int compare(Emp e1, Emp e2) {
+		String name1=e1.name;
+		String name2=e2.name;
+		return -name1.compareTo(name2);//Z to A
+	}
+	
+}
+public class Demo3 {
+
+	public static void main(String[] args) {
+		ArrayList<Emp> allEmp=new ArrayList<Emp>();
+		allEmp.add(new Emp("Bhanu"));
+		allEmp.add(new Emp("Wenissa"));
+		allEmp.add(new Emp("Arjun"));
+		
+		System.out.println(allEmp);
+		
+		Collections.sort(allEmp);
+		
+		System.out.println(allEmp);
+		
+		Collections.sort(allEmp,new EmpSorting());
+		
+		System.out.println(allEmp);
+		
+	}
+
+}

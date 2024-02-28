@@ -1,0 +1,34 @@
+package w;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+class Emp
+{
+	String name;
+	
+	Emp(String name)
+	{
+		this.name=name;
+	}
+	
+	public String toString()
+	{
+		return name;
+	}
+}
+public class Demo3 {
+
+	public static void main(String[] args) {
+		ArrayList<Emp> allEmp=new ArrayList<Emp>();
+		allEmp.add(new Emp("Bhanu"));
+		allEmp.add(new Emp("Wenissa"));
+		allEmp.add(new Emp("Arjun"));
+		
+		System.out.println(allEmp);
+		
+		Collections.sort(allEmp);
+		
+	}
+
+}

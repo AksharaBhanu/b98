@@ -1,0 +1,116 @@
+1. New group in Akshara App-B98
+2. New Group in slack
+3. Whatsapp new DL
+4. github repository
+
+4. Subject: Selenium
+5. should know Java + manual testing
+6. 9481787493
+7. Eclipse
+
+What is selenium
+https://www.selenium.dev/
+Selenium automates browsers. That's it!
+
+Browser: Google Chrome , Mozilla Firefox, Apple Safari,MS Edge
+Application:
+1. Desktop Application: ex- Notepad Calc MS office
+2. C/S application: install in pc + network ex: outlook chat app zoom
+3. Web App: zoom, whatsapp gmail fb 
+4. mobile application:Zoom whatsapp gmail fb 
+
+Selenium opens browser
+selenium enters url
+selenium enter un,pw & click login
+selenium verify 
+
+1. faster
+2. consitancy
+3. restless
+
+"Free and open source web app automation tool"
+1. Free--> no need pay
+         1.you pay for internet
+	 2.you pay for good phone
+         3.you pay for cloths
+         4.Makeup
+         5.ad
+         6.your data-Name email id phone number gender age likes 
+		---flipkart Amz Bank laon
+         7.AI     
+2. open source--> we can see the code,download it, customize it, sell it
+         unix---->os
+         Java---> 
+         Android-->
+         python-->
+         selenium-->
+
+3. Web Application: we can automate only web applications
+
+4. automation tool: GUI Functional testing automation tool
+ 
+Home work:
+1. what are the advantages of automation
+2. what are the disadvantages of automation 
+
+Selenium installtion
+1. JDK 11 & above
+2. IDE- Eclipse
+3. selenium software
+         
+1. open Eclipse
+2. select new workspace
+3. create new Java Project
+4. create a package (day1) under src
+5. create a Demo1.java with main + sop
+6. execute it and ensure that it is working fine
+7. create a new folder 'lib' under the project
+8. copy selenium jar file and paste it into lib folder
+9. right click on selenium jar file-> build path->add to build path
+
+ 
+How to see the source code of selenium
+1. note down the FQCN -->org.openqa.selenium.chrome.ChromeDriver
+2. goto https://github.com/SeleniumHQ/selenium/tree/trunk/java
+3. click src->org/openqa/selenium
+4. click chrome folder
+5. click on ChromeDriver.java
+
+pkg->org.openqa.selenium.chrome.ChromeDriver
+cls->public class ChromeDriver extends ChromiumDriver
+
+pkg->org.openqa.selenium.edge.EdgeDriver
+cls->public class EdgeDriver extends ChromiumDriver
+
+pkg->org.openqa.selenium.firefox.FirefoxDriver
+cls->public class FirefoxDriver extends RemoteWebDriver
+
+pkg->org.openqa.selenium.safari.SafariDriver
+cls->public class SafariDriver extends RemoteWebDriver
+
+pkg->org.openqa.selenium.chromium.ChromiumDriver
+cls->public class ChromiumDriver extends RemoteWebDriver
+
+pkg->org.openqa.selenium.remote.RemoteWebDriver
+cls->public class RemoteWebDriver
+    implements WebDriver,JavascriptExecutor,TakesScreenshot {
+
+pkg->org.openqa.selenium.WebDriver
+cls->public interface WebDriver extends SearchContext
+
+pkg->org.openqa.selenium.SearchContext
+cls->public interface SearchContext
+
+pkg->org.openqa.selenium.JavascriptExecutor
+public interface JavascriptExecutor
+
+pkg->org.openqa.selenium.TakesScreenshot
+cls-public interface TakesScreenshot
+
+
+
+
+
+
+
+

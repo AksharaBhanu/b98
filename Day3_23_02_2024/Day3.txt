@@ -1,0 +1,22 @@
+WebDriver methods
+
+1. get
+2. getTitle
+3. getCurrentURL
+4. getPageSource
+5. close
+6. quit
+7. navigate--> back, forward , refresh , to, to
+8. manage-> window-> maximize, minimize , fullscreen,getSize,setSize,getPosition,setPosition
+9. switchTo-> newWindow
+
+what is webelement?
+any GUI object present on the webpage such as textbox button link image listbox radio button ...
+all are called as webelement in selenium
+
+elements are created using HTML-->Hyper Text Markup language
+<> tags
+html head title body input
+attributes: type="text" type="password" type="button" value="Login"
+AtributeName="AttributeValue"
+text: Akshara

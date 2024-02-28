@@ -1,0 +1,99 @@
+in selenium anything present on the webpage--> WebElement
+WebElement is created using --> HTML
+in HTML-> tag attribute and text
+
+sample html code of a link
+
+<a id="a1" name="n1" class="c1" title="click here" href="http://www.google.com">My Google</a>
+
+tag-><a>
+attributes-> id ,name class title href
+text--> My Google
+
+to see the html code of the element
+1. right click on the element
+2. select 'inspect'--> we get Developer tool bar
+or
+press F12 (function f12)
+
+
+<input class="gNO89b" value="Google Search" aria-label="Google Search" name="btnK" role="button" tabindex="0" type="submit" data-ved="0ahUKEwjXv7PFpsiEAxXElFYBHZSmBr4Q4dUDCBQ">
+
+<input type="submit" name="action_submitForm" value="Get a Free Demo" class="action" id="Form_getForm_action_submitForm" tabindex="6">
+
+<a class="nav-link-hed" aria-current="page">Company</a>
+
+<a id="a1" name="n1" class="c1" title="click here" href="http://www.google.com">My Google</a>
+
+
+before performing any action( click type select double click dragdrop) we should find the element
+
+How do find the element?
+using findElement method with locator
+
+What is locator?
+selenium mechanism to identify the element
+
+How many locators?
+8
+
+what are those?
+1tagName
+2id
+3name
+4className
+
+5linkText
+6partialLinkText
+
+7cssSelector
+8xpath
+
+where are these locators present?
+in By class
+
+Note: 
+By is an abstract class
+all the locators are static method, so we use class name
+
+(locator is duplicate)
+if the locator value is matching with multiple elements then findElement method 
+will return address of the 1st matching element
+
+if the locator is not matching with any of the element then?
+findElement method will throws NoSuchElementException
+
+when do we use partialLinkText?
+if the text of the link is
+1. very lengthy or
+2. dynamic 
+
+linkText and partialLinkText- can be used to locate only hyperlink , if we try to locate any other type we get NSEE
+
+1. open the browser
+2. enter the url
+3. enter un
+4. enter pw
+5. click login
+
+<input class="form-control" name="username" type="text" placeholder="Username" aria-label="Username" aria-describedby="input-username" wfd-id="id1">
+
+<input class="form-control" name="password" type="password" placeholder="Password" aria-label="Password" "="" aria-describedby="input-password" wfd-id="id2">
+
+<button class="btn btn-lg btn-primary" name="login-button" type="submit">Go</button>
+
+in selenium 3 ways to verify the page
+
+1. title
+Mankart | OSPOS | Login
+Mankart | Powered by OSPOS 3.3.7
+
+2. url
+https://pos.aksharatraining.in/pos/public/#
+https://pos.aksharatraining.in/pos/public/home
+
+3. element
+Logout
+
+
+
