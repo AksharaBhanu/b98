@@ -1,0 +1,114 @@
+Locators-8
+tagName,id,name,className,linkText,partialLinkText
+cssSelector & xpath
+tag[AN='AV']--> id # class .--No Text
+path of the element in html tree
+types--> absolute & relative
+.---> root elememt
+/--> child element
+//--> descendant
+/..--> parent element
+index--> starts from 1 Local & global (group)
+last(), position(), starts-with , ends-with, contains(), text()
+//tag[@AN='AV' and text()='tv' or contains(@AN,'av') or not(contains(text(),'tv'))]
+
+Navigation: xpath traversing
+1. fwd ---> /html/body/table/tbody/tr[1]/th[1]  parent to child-->//th[text()='Sl No']
+2. bkw  --> //th[text()='Sl No']/../../../../.. child to parent-->
+
+xpath axes
+/axes_name::tag
+
+/---> child
+/..--> parent
+//-->descendant
+
+/child::
+/parent::
+/descendant::
+/ancestor
+/preceding-sibling::
+/following-sibling::
+
+./child::html/child::body/child::table--> ./html/body/table
+.//table/parent::body --->.//table/..
+./descendant::table  ---> .//table
+
+//table/ancestor::html
+//th[text()='Subject']/preceding-sibling::th
+//th[text()='Subject']/following-sibling::th
+//th[text()='Subject']/../th[3]
+
+//th[text()='Sl No']/following-sibling::th -2 -> Sub & cost
+//th[text()='Sl No']/following-sibling::th[1] --> 1 Sub
+//th[text()='Sl No']/following-sibling::th[2]--> 1 cost
+
+//th[text()='Cost']/preceding-sibling::th  2 sl & sub
+
+//th[text()='Cost']/preceding-sibling::th[1] --> 1 Sub
+//th[text()='Cost']/preceding-sibling::th[2] --> 1 sl
+
+cost of java
+2 test case
+TC1--> Bhanu-->//td[text()='100']
+TC2--> Zahara-->//td[text()='Java']/../td[3]
+//td[text()='Java']/following-sibling::td
+
+we can use contains only if part of the value is changing
+if the value is completly dynamic then we cant use contains function
+in such case we use --> independent & dependent xpath
+
+xpath for '2nd subject'
+IE:2
+DE:SQL
+1. insepect IE and notedown its html code
+2. place the mouse pointer on html code of IE and move in upward direction
+till it hightlights both IE & DE
+3. note down its tag (Common Parent)
+4. use arrowkeys and navigate from CP to DE
+5. write xpat from IE->CP->DE
+//td[text()='2']/../td[2]
+
+xpath for 'cost of java'
+
+email id of john in pos application
+DE: email id
+IE: john
+1. insepect IE and notedown its html code
+2. place the mouse pointer on html code of IE and move in upward direction
+till it hightlights both IE & DE
+3. note down its tag (Common Parent)
+4. use arrowkeys and navigate from CP to DE
+			<tr>
+
+
+
+<td class="">John</td>		<td>[5]
+					
+
+				 <a>
+
+
+//td[text()='John']/../td[5]/a
+
+
+xpath for 'Emp id of John'
+
+
+
+
+//td[text()='John']/../td[2]
+
+
+
+
+//div[text()='April 2024']/../../div[3]/div[1]/div[2]/div/p[1]
+//div[text()='April 2024']/../../div[3]/div[1]/div[2]/div/p[1]
+
+
+//div[text()='Apple iPhone 14 (Blue, 128 GB)']/../../div[2]/div[1]/div/div[1]
+
+
+
+
+
