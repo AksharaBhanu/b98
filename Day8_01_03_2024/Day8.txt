@@ -1,0 +1,54 @@
+Locators
+1.tagName
+2.id
+3.name
+4.className
+5.linkText
+6.partialLinktext
+7.cssSelector
+8.xpath
+child parent // a f-s p-s
+	last() position() contains() starts-with() ends-with()
+       and or not
+       |
+       index gloable index
+       traversing-->
+
+IMP 
+
+id--> name--> linkText-> xpath--@AN, text(), contains, I-D xpath
+
+<a id="A2" href="http://www.google.com" target="_blank">Link</a>
+<div class="error">Invalid username and/or password.</div>
+//div[@class='error']
+
+WebElement methods
+	Actions
+	1. sendKeys()-->enter the input->textbox password textarea
+        2. clear()-->remove the value from textbox password textarea
+	3. click()--> click on any type of element
+	4. submit()--> to click only on submit button 
+
+	Note: if button type is submit we can use both click() & submit()
+	
+	Verification
+	5.isDisplayed()--any type of element
+        6.isSelected()--> checkbox, radiobutton and listbox
+	7.isEnabled()--> any type of element
+
+	getters
+	8.getTagName()
+	9.getAttribute(AN)
+ 	10.getText()
+	11.getCssValue(CA)--> color, font-family font-size
+	12. getLocation
+	13. getSize
+	14. getRect
+
+Home work:
+verify that go button is below password
+verify that un & pw are aligned
+
+
+
+	
