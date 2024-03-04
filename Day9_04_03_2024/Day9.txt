@@ -1,0 +1,63 @@
+WebElement methods
+	Actions
+	1. sendKeys()-->enter the input->textbox password textarea
+        2. clear()-->remove the value from textbox password textarea
+	3. click()--> click on any type of element
+	4. submit()--> to click only on submit button 
+
+	Note: if button type is submit we can use both click() & submit()
+	
+	Verification
+	5.isDisplayed()--any type of element
+        6.isSelected()--> checkbox, radiobutton and listbox
+	7.isEnabled()--> any type of element
+
+	getters
+	8.getTagName()
+	9.getAttribute(AN)
+ 	10.getText()
+	11.getCssValue(CA)--> color, font-family font-size
+	12. getLocation
+	13. getSize
+	14. getRect
+	15.getScreenshotAs
+
+Note:
+selenium supports on PNG format images -->Portable Network Graphics
+by default images will be stored in temp folder and automatically deleted
+so we need to take a backup 
+
+to copy the image we use api given by apache called commons.io
+
+using selenium we can take only screenshot of element or page
+we cant take screenshot of desktop
+we cant take screenshot of some of the popups such as Alert pupup, File upload popup
+we cant take screenshot of complete page (scroll down and take)
+
+How to execute JS manually in the browser?
+1. open the browser and goto req page
+2. open dev toolbar 
+3. goto Console tab
+4. type javascript code and press enter  Ex: alert('Hi')
+
+How to execute JS using selenium?
+using executeScript method of JavascriptExecutor interface
+
+1. scroll down
+2. scroll up
+3. scroll to bottom
+4. scroll to specific element
+
+Home work --> list all the 12 languages supported selenium?
+
+How to scroll the page without using Javascript?
+--> using scroll methods available in Actions class
+
+Note:
+1. scroll methods in Actions class is introduced in selenium 4
+2. Actions class has parameterized constructor - single arg constructor - taken an arg of type WebDriver
+3. when we call any method of Actions class we must call perform method at the end
+4. Action-interface Actions-->class
+5. Actions calss is present under interactions package
+
+

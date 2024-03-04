@@ -5,8 +5,6 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.edge.EdgeDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.remote.RemoteWebDriver"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.TakesScreenshot"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.JavascriptExecutor"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.SearchContext"/>
     <fullyQualifiedTypeName name="java.net.URL"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WindowType"/>
@@ -20,6 +18,11 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.Color"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.OutputType"/>
+    <fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.TakesScreenshot"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.JavascriptExecutor"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
 </qualifiedTypeNameHistroy>

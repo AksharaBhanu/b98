@@ -12,6 +12,7 @@ public class Demo1 {
 		driver.get("file:///E:/B98_11AM_Selenium/share/page/sample8.html");
 		Thread.sleep(1000);
 		WebElement element = driver.findElement(By.id("A1"));
+		
 		element.clear();
 		Thread.sleep(1000);
 		element.sendKeys("Ravi");
