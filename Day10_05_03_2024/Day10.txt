@@ -1,0 +1,66 @@
+Actions is a class present in interactions package
+Action->interface
+Actions--> Class
+pakage->interactions
+Has parameterized constructor
+We shouls always call perform method at the end
+
+Uses of actions class
+1.scroll (in selenium 4)
+	scrollByAmount
+	scrollToElement
+
+2.mouse hover (move the mouse pointer on the element- drop down menu)
+	moveToElement
+
+3. right click (context click--> we get context menu)
+
+4. doubleClick
+
+5. Drag and drop
+
+6. clickAndHold
+
+7. release
+
+Note: all methods in Actions class are overlaoded
+
+Homework
+goto https://www.globalsqa.com-> Tester’s Hub->Demo Testing Site->tooltip
+
+Homework--> right click and select paste option present in context menu
+
+	
+<input type="button" ondblclick="dbl_click();" value="Double Click">
+
+
+//input[@value='Double Click']
+
+<div id="box" ondblclick="dbl_click();" style="position:absolute;left: 100px;top:50px;background-color: #f1f1f1; width: 300px; height : 100px;"> Double Click   here</div>
+
+Homework-print the color of the box before and after double click
+
+Embeded page--> web page inside another webpage
+How it is created--> using iframe frameset
+if the element is inside the frame how to handle it?
+by swith to frame
+
+Right click on the border of the elemnt and check the context menu --> if we see 'view frame source' --> element is inside the frame
+
+How do u exit from the frame
+driver.switchTo().defaultContent();
+
+If specified index/id/name/element is invalid then we get NoSuchFrameException
+
+
+<button aria-label="Stay signed out" class="M6CB1c rr4y5c" jsname="ZUkOIc" jslog="71121; track:click;" data-dismiss="n">Stay signed out</button>
+
+//button[text()='Stay signed out']
+
+Home work
+perform drag and drop --> https://www.globalsqa.com/demo-site/draganddrop/
+
+
+
+
+
