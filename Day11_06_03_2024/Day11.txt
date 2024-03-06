@@ -1,0 +1,47 @@
+Popup
+
+1. Frame popup-ex: Sign in to Google  popup in google.con
+  How to identify-> we can inspect but we get 'view frame source' while inspecting it
+  How to handle it?--> driver.switchTo().frame(arg);
+	
+2. Alert Popup/JS popup
+      How to identify
+		below the addressbar, middle
+		it contains OK or Ok-Cancel
+		we cant inspect popup
+                we cant move the popup
+
+	How to handle it?
+	driver.switchTo().alert();--> transfer the controle from page to popup
+	alert.getText();--> get the message present on the popup
+	alert.accept();//click on OK- transfer the control back to page
+	alert.dismiss();//click on cancel- transfer the control back to page
+
+	while using any of the above 4 methods , if alter is not there we get NoAlertPresentException
+
+	when do we get UnhandledAlertException
+	if we try to perform any action on the element present on the page while alert popup is still displayed on the screen
+
+CV-
+1. proper email subject --> Company/JobID-Skills-Exp/posiion-Notice Period Ex: CV for TCS Selenium 5yrs 10days
+2. ensure that CV is attached:
+3. CV name should be proper-> Bhanu_Selenium_5yrs_10Days.PDF
+4. email body: Current CTC, Expected CTC, Notice period, Skill set, Total Exp, relavent exp, WFH/WFO/Hybrid, City 
+
+3. File upload popup
+  	How to identify
+		1. when we click on 'Choose File'/Browse/upload/attach button it will display a popup
+		2. we can move the popup
+		3. We cant inspect the popup
+		4. it is used to browse and select the file to be uploaded
+
+	How to handle it?
+          using sendKeys method for the button, we should specify only absolute path of the file to be uploaded
+          we convert relative path to absolute path using getAbsolutePath method File class
+
+
+4. File Download
+	
+	 We dont get any popup, file will be auto saved to downloads folder
+
+
