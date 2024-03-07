@@ -1,0 +1,34 @@
+Popups
+1. Frame popup
+2. javascript (alert) popup
+3. File upload popup
+4. File download (No popup)
+5. HTML popup -Hidden Division Popup
+	we can inspect
+	we cant move
+      we handle it using driver.findElement
+
+<span tabindex="0" role="button" aria-label="Next Month" class="DayPicker-NavButton DayPicker-NavButton--next"></span>
+//span[@ aria-label='Next Month']
+6. Child browser popup or child window popup
+    1. it has minmize and maximize button
+    2. we can inspect the popup
+    3. we can move the popup
+
+Diff b/w 
+getWindowHandle					getWindowHandles
+returns to address of current browser		returns to address of all the browsers (parent and child)
+return type is String				Set<String>
+
+Diff b/w
+
+	close 				quit
+close closes current browser		closes all the browsers and terminates the session
+
+<input type="text" id="t1">
+<input type="text" id="t2">
+
+//input[@id='t1' or @id='t2']
+
+if we close alert popup, control will be automatically transfrd back to page
+but for frame and child browser we should switch back explicitly
