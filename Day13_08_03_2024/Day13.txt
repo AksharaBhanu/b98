@@ -1,0 +1,41 @@
+Notification popup
+1. we cant inspect
+2. we cant move
+3. below the address bar and left side
+4. allow and block
+
+solution : hide this popup by changing browser setting using code
+
+Homework: Disable notification popup in Firefox
+----------------------------------------------------------
+alert (JS popup),frame,html (hidden div) popup, file upload, child browser/tab, notification
+
+Shadow-root
+if the element is inside the shadow-root, we cant access it directly
+solution
+1. find the parent of shadow-root
+2. get the shadow-root using getShadowRoot
+3. use  shadow-root element find the req element
+
+Note: 
+if the element is present inside   shadow-root  we can use only cssSelector
+if  shadow-root  is of type open then only we can handle it
+
+<book-app apptitle="BOOKS">BOOKS</book-app>
+//book-app[text()='BOOKS']
+
+to handle multiple elements we use findElements
+we use xpath
+we use for loop
+what are the diff b/w 
+findElement 						findElements
+returns 1st Matching WebElement		returns all Matching WebElements
+
+return type:WebElement			List<WebElement>
+
+if locator is not matching		returns empty list
+it will throw NSEE
+		
+
+
+
