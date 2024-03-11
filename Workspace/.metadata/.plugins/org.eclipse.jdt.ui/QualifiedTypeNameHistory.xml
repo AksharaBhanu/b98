@@ -8,8 +8,6 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.SearchContext"/>
     <fullyQualifiedTypeName name="java.net.URL"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WindowType"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.Dimension"/>
@@ -23,9 +21,13 @@
     <fullyQualifiedTypeName name="java.time.Duration"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeOptions"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
+    <fullyQualifiedTypeName name="io.opentelemetry.exporter.logging.SystemOutLogRecordExporter"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
 </qualifiedTypeNameHistroy>

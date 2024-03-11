@@ -1,0 +1,43 @@
+FE 				FEs
+returns 1st MWE			retuens all MWEs
+type:WebElement			List<WebElement>
+NSEE				empty list
+handle single element		handle multiple elements
+
+Count the number of links present on given page
+Homework: Count the number of images present on given page
+
+<textarea class="gLFyf" aria-controls="Alh6id" aria-owns="Alh6id" autofocus="" title="Search" value="" jsaction="paste:puy29d;" aria-label="Search" aria-autocomplete="both" aria-expanded="false" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" id="APjFqb" maxlength="2048" name="q" role="combobox" rows="1" spellcheck="false" data-ved="0ahUKEwifq9CfxeuEAxWina8BHe_ED8sQ39UDCAU"></textarea>
+
+Homework
+search iphone in amazon and print all the Auto Suggestions
+
+Handlin listbox (drop down or combo box)
+
+1. created using <select> tag
+2. items in the listbox is created using <option>
+3. to handle it we use 'Select' class of selenium
+
+Select class methods
+1. selectByIndex(int)
+2. selectByValue(Str)
+3. selectByVisibleText(Str)
+
+Note if the arg is invalid we get NSEE
+
+4. isMultiple()
+
+5. deselectByIndex(int)
+6. de selectByValue(Str)
+7. deselectByVisibleText(Str)
+8. deselectAll();
+
+If we try to use any deselect method on single select listbox we get UnsupportedOperationException
+
+9.getWrappedElement()
+10. getOptions()
+11. getAllSelectedOptions()
+12. getFirstSelectedOption()
+
+Homework
+print the content of the list box in reverse sorted order
