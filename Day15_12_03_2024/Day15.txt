@@ -1,0 +1,67 @@
+NoSuchElementException
+1. wrong locator
+2. wrong locator value
+3. inside a frame
+4. in diff browser
+5. in diff tab
+6. synchronization issue
+
+selenium is fast compared to application
+Blind wait-->Therad.sleep(1000)
+
+1. implicitlyWait
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+	used by all findElement & findElements methods
+	we need to specify implicitlyWait only once
+	wait upto n seconds
+
+why implicitlyWait is better than Thread.sleep
+
+Explicit wait
+
+WebDriverWait is called as Explicit wait
+because we have to specify the waiting condition explicitly
+if we cant use implicitlyWait then we gofor Explicit wait (to handle methods other than findElement/s)
+
+Process of matching selenium speed with application  is called as synchronization
+what are the options
+1. implicitlyWait
+2. WebDriverWait
+3. FluentWait
+4. custom wait
+5. pageLoadTimeout
+6. scriptTimeout
+7. Thread.sleep
+
+//1. Thread.sleep (Demo1.java)--default timeout value NA
+//2. implicitlyWait (Demo2.java)--default timeout value 0s-->polling 0.5s
+//3. WebDriverWait (explicit wait)--default timeout value NA -->polling 0.5s
+//4. FluentWait (parent class of WebDriverWait)--default timeout value NA -->polling 0.5s we can change
+//5. custom wait	--default timeout value NA -->-->polling NA
+//6. pageLoadTimeout--> driver.get (navigate())--default timeout value 5min-->polling 0.5s 
+//7. scriptTimeout  -> executeScript method of JavascriptExecutor	--Default timeout value is 30S-->polling 0.5s 
+
+What are the diff b/w implicitWait & explicitWait
+
+implicitWait					explicitWait
+
+handle sync of all fe & fes			any method (only one)
+
+do not specify waiting condition		we must specify waiting condition explicitly
+(it is buit-in)
+
+we sepcify only once				multiple times
+
+after time--> NSEE/empty list			TimeOutException
+
+defautl timeout: 0S				NA
+
+
+implicitlyWait					WebDriverWait
+
+
+
+
+
+
