@@ -1,0 +1,33 @@
+Encapsulation
+binding data member with member function so that it act as a single unit
+
+3 steps
+declaration
+initialization
+utilization
+
+Encapsulation in selenium
+class B
+{
+	private WebElement unTB;
+	
+	B(WebDriver driver)
+	{
+		unTB = driver.findElement(By.name("username"));
+	}
+	
+	public void setUserName()
+	{
+		unTB.sendKeys("admin");
+	}
+}
+
+What is the meaning of StaleElementReferenceException?
+it means address of the element is old
+
+When do we get this exception
+After finding the element and before performing any action on that element if page is refershed we get SERE
+
+How to handle StaleElementReferenceException?
+using Page Object Model (POM)
+

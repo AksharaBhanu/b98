@@ -36,6 +36,7 @@ public class Demo2 {
 	Thread.sleep(1000);
 	String msg="Date Not found";
 	
+	Duration d = driver.manage().timeouts().getImplicitWaitTimeout();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
 	for(int i=1;i<=12;i++)
 	{
@@ -62,6 +63,8 @@ public class Demo2 {
 	}
 	
 	System.out.println(msg);
+	
+	driver.manage().timeouts().implicitlyWait(d);
 	}
 
 }

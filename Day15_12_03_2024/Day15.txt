@@ -60,6 +60,9 @@ defautl timeout: 0S				NA
 
 implicitlyWait					WebDriverWait
 
+-----------------------------------below diff is only in Selenium 3--------------------------------------------
+timeout: any unit				only seconds
+
 
 
 
