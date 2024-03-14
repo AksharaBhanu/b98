@@ -1,0 +1,86 @@
+StaleElementReferenceException
+->Address of the element is OLD
+
+-> After finding the element ,before performing any action on that element, if page is reloaded then we get this exception.
+
+What is solution
+we use Page Object Model
+
+POM--> Java design pattern
+1. declaration
+		we use FindBy Annotation
+		syn:  @FindBy(locator="value")
+		      private WebElement element;
+
+2. initialization
+
+		PageFactory.initElements(driver,this);
+
+3. utilization
+		normal getter/setter methods
+
+What happens if we dont use initElements?
+we get NullPointer Exception
+
+How to initialize POM class (elements of POM class)
+using initElements method of PageFactory class which takes 2 arguments
+1. WebDriver (browser)
+2. POM class object 
+
+Diff b/w Page Object Model & PageFactory?
+Page Object Model ->java concept (design pattern)
+PageFactory--> Selenium class which helps to implement POM
+
+we can use all 8 locators in POM class but only for cssSelector we use 'css'
+
+How do u handle multiple elements in POM class?
+using @FindBy annotation only we handle multiple elements but data type will be
+List<WebElement>
+
+How do u handle alert popup in POM class
+To handle alert popup we cant used @FindBy annotation
+we use driver.switchTo().alert()
+
+We store elements and methods in POM class --> repository class /Element repository/Object repository class
+We do not write main method in POM class 
+
+We write main method in Test class
+
+Types of class we create?
+1. POM class
+2. Test class
+
+Number of POM class will be same as number of webpages
+Number of test class will be same as number of manual test cases
+
+TestNG
+Unit testing framework used to execute multiple scripts automatically and to genereate the report
+
+install TestNG plugin for eclipse
+
+
+1. No main method---> we use 'Test Method'--> any method with @Test 
+2. after the execution of any TestNG class we get html report
+		a. refresh the java project
+		b. expand 'test-output' folder
+		c. open emailable-report.html
+
+Can we have multiple tests in same testNG class?
+yes
+what is the order of execution
+A-Z
+
+How to execute the test in req order?
+priority
+
+default priority is 0
+
+if 2 methods have same priority?
+--> those 2 methods will execute in alphabeticle order
+
+priority can be hardcoded number of final variable , float is not allowed , variable not allowed
+
+
+
+
+
