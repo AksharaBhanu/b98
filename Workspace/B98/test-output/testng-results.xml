@@ -1,16 +1,729 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="8" total="45" passed="37" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Create User:Akash pw:A123]]>
+    </line>
+    <line>
+      <![CDATA[Create User:Bhumi pw:B123]]>
+    </line>
+    <line>
+      <![CDATA[Create User:Chandra pw:C123]]>
+    </line>
+    <line>
+      <![CDATA[test 1]]>
+    </line>
+    <line>
+      <![CDATA[Data:Akash]]>
+    </line>
+    <line>
+      <![CDATA[Data:123]]>
+    </line>
+    <line>
+      <![CDATA[Data:true]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeSuite]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeTest]]>
+    </line>
+    <line>
+      <![CDATA[MSG from log]]>
+    </line>
+    <line>
+      <![CDATA[MSG from log1]]>
+    </line>
+    <line>
+      <![CDATA[MSG from log2]]>
+    </line>
+    <line>
+      <![CDATA[register user]]>
+    </line>
+    <line>
+      <![CDATA[edit user]]>
+    </line>
     <line>
       <![CDATA[delete user]]>
     </line>
+    <line>
+      <![CDATA[@BeforeClass]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[child @Test1]]>
+    </line>
+    <line>
+      <![CDATA[@AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[@AfterClass]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeClass]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[child @Test2a]]>
+    </line>
+    <line>
+      <![CDATA[@AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[child @Test2b]]>
+    </line>
+    <line>
+      <![CDATA[@AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[@AfterClass]]>
+    </line>
+    <line>
+      <![CDATA[test 1]]>
+    </line>
+    <line>
+      <![CDATA[Create User:Akash]]>
+    </line>
+    <line>
+      <![CDATA[Create User:Bhumi]]>
+    </line>
+    <line>
+      <![CDATA[Create User:Chandra]]>
+    </line>
+    <line>
+      <![CDATA[Create User:Akash pw:A123]]>
+    </line>
+    <line>
+      <![CDATA[Create User:Bhumi pw:B123]]>
+    </line>
+    <line>
+      <![CDATA[Create User:Chandra pw:C123]]>
+    </line>
+    <line>
+      <![CDATA[Create User:Akash]]>
+    </line>
+    <line>
+      <![CDATA[Create User:Bhumi]]>
+    </line>
+    <line>
+      <![CDATA[Create User:Chandra]]>
+    </line>
+    <line>
+      <![CDATA[Create User:Akash A123]]>
+    </line>
+    <line>
+      <![CDATA[Create User:Bhumi B123]]>
+    </line>
+    <line>
+      <![CDATA[Create User:Chandra C123]]>
+    </line>
+    <line>
+      <![CDATA[Data:Akash]]>
+    </line>
+    <line>
+      <![CDATA[Data:123]]>
+    </line>
+    <line>
+      <![CDATA[Data:true]]>
+    </line>
+    <line>
+      <![CDATA[Open the Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[Delete User]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[Create User]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[Close the browser]]>
+    </line>
+    <line>
+      <![CDATA[Open the Browser]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[Delete User]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[Login]]>
+    </line>
+    <line>
+      <![CDATA[Create User]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[Close the browser]]>
+    </line>
+    <line>
+      <![CDATA[@AfterTest]]>
+    </line>
+    <line>
+      <![CDATA[@AfterSuite]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeSuite]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeTest]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeClass]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[child @Test1]]>
+    </line>
+    <line>
+      <![CDATA[@AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[@AfterClass]]>
+    </line>
+    <line>
+      <![CDATA[@AfterTest]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeTest]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeClass]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[child @Test2a]]>
+    </line>
+    <line>
+      <![CDATA[@AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[@BeforeMethod]]>
+    </line>
+    <line>
+      <![CDATA[child @Test2b]]>
+    </line>
+    <line>
+      <![CDATA[@AfterMethod]]>
+    </line>
+    <line>
+      <![CDATA[@AfterClass]]>
+    </line>
+    <line>
+      <![CDATA[@AfterTest]]>
+    </line>
+    <line>
+      <![CDATA[@AfterSuite]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-03-14T12:50:13 IST" name="Default suite" finished-at="2024-03-14T12:50:13 IST" duration-ms="58">
+  <suite started-at="2024-03-15T12:59:35 IST" name="Suite" finished-at="2024-03-15T12:59:35 IST" duration-ms="0">
     <groups>
     </groups>
-    <test started-at="2024-03-14T12:50:13 IST" name="Default test" finished-at="2024-03-14T12:50:13 IST" duration-ms="58">
+  </suite> <!-- Suite -->
+  <suite started-at="2024-03-15T12:59:34 IST" name="Suite (1)" finished-at="2024-03-15T12:59:34 IST" duration-ms="119">
+    <groups>
+    </groups>
+    <test started-at="2024-03-15T12:59:34 IST" name="Test" finished-at="2024-03-15T12:59:34 IST" duration-ms="119">
+      <class name="day18.Demo3">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:day18.Demo3@5c5eefef]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create User:Akash pw:A123]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:day18.Demo3@5c5eefef]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhumi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create User:Bhumi pw:B123]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:day18.Demo3@5c5eefef]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chandra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create User:Chandra pw:C123]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- day18.Demo3 -->
+      <class name="day18.Demo2">
+        <test-method signature="test1(java.lang.String)[pri:0, instance:day18.Demo2@222545dc]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create User:Akash]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String)[pri:0, instance:day18.Demo2@222545dc]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhumi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create User:Bhumi]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String)[pri:0, instance:day18.Demo2@222545dc]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chandra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create User:Chandra]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- day18.Demo2 -->
+      <class name="day18.Demo5">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:day18.Demo5@5158b42f]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create User:Akash A123]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:day18.Demo5@5158b42f]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhumi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create User:Bhumi B123]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:day18.Demo5@5158b42f]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chandra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create User:Chandra C123]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- day18.Demo5 -->
+      <class name="day18.Demo4">
+        <test-method signature="test1(java.lang.String)[pri:0, instance:day18.Demo4@16293aa2]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create User:Akash]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String)[pri:0, instance:day18.Demo4@16293aa2]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhumi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create User:Bhumi]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String)[pri:0, instance:day18.Demo4@16293aa2]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chandra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create User:Chandra]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- day18.Demo4 -->
+      <class name="day18.Demo1">
+        <test-method signature="test1()[pri:0, instance:day18.Demo1@6ae5aa72]" started-at="2024-03-15T12:59:34 IST" name="test1" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- day18.Demo1 -->
+      <class name="day17b.Demo1">
+        <test-method signature="mytest1()[pri:0, instance:day17b.Demo1@6356695f]" started-at="2024-03-15T12:59:34 IST" name="mytest1" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[MSG from log]]>
+            </line>
+            <line>
+              <![CDATA[MSG from log1]]>
+            </line>
+            <line>
+              <![CDATA[MSG from log2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mytest1 -->
+      </class> <!-- day17b.Demo1 -->
+      <class name="day18.Demo7">
+        <test-method is-config="true" signature="open()[pri:0, instance:day18.Demo7@72d1ad2e]" started-at="2024-03-15T12:59:34 IST" name="open" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Open the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method is-config="true" signature="login()[pri:0, instance:day18.Demo7@72d1ad2e]" started-at="2024-03-15T12:59:34 IST" name="login" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deleteUser()[pri:0, instance:day18.Demo7@72d1ad2e]" started-at="2024-03-15T12:59:34 IST" name="deleteUser" finished-at="2024-03-15T12:59:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Delete User]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:day18.Demo7@72d1ad2e]" started-at="2024-03-15T12:59:34 IST" name="logout" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:day18.Demo7@72d1ad2e]" started-at="2024-03-15T12:59:34 IST" name="login" finished-at="2024-03-15T12:59:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createUser()[pri:1, instance:day18.Demo7@72d1ad2e]" started-at="2024-03-15T12:59:34 IST" name="createUser" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Create User]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:day18.Demo7@72d1ad2e]" started-at="2024-03-15T12:59:34 IST" name="logout" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:day18.Demo7@72d1ad2e]" started-at="2024-03-15T12:59:34 IST" name="close" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- day18.Demo7 -->
+      <class name="day18.Child1">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:day18.Child1@245b4bdc]" started-at="2024-03-15T12:59:34 IST" name="beforeSuite" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeSuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:day18.Child1@245b4bdc]" started-at="2024-03-15T12:59:34 IST" name="beforeTest" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:day18.Child1@245b4bdc]" started-at="2024-03-15T12:59:34 IST" name="beforeClass" finished-at="2024-03-15T12:59:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:day18.Child1@245b4bdc]" started-at="2024-03-15T12:59:34 IST" name="beforeMethod" finished-at="2024-03-15T12:59:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="childTest1()[pri:0, instance:day18.Child1@245b4bdc]" started-at="2024-03-15T12:59:34 IST" name="childTest1" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[child @Test1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- childTest1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:day18.Child1@245b4bdc]" started-at="2024-03-15T12:59:34 IST" name="afterMethod" finished-at="2024-03-15T12:59:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:day18.Child1@245b4bdc]" started-at="2024-03-15T12:59:34 IST" name="afterClass" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:day18.Child1@245b4bdc]" started-at="2024-03-15T12:59:34 IST" name="afterTest" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:day18.Child1@245b4bdc]" started-at="2024-03-15T12:59:34 IST" name="afterSuite" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterSuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- day18.Child1 -->
+      <class name="day18.Demo6">
+        <test-method signature="test1(java.lang.Object)[pri:0, instance:day18.Demo6@595b007d]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Data:Akash]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.Object)[pri:0, instance:day18.Demo6@595b007d]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Data:123]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.Object)[pri:0, instance:day18.Demo6@595b007d]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Data:true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- day18.Demo6 -->
+      <class name="day18.Child2">
+        <test-method signature="childTest2a()[pri:0, instance:day18.Child2@6c64cb25]" started-at="2024-03-15T12:59:34 IST" name="childTest2a" finished-at="2024-03-15T12:59:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[child @Test2a]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- childTest2a -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:day18.Child2@6c64cb25]" started-at="2024-03-15T12:59:34 IST" name="beforeMethod" finished-at="2024-03-15T12:59:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:day18.Child2@6c64cb25]" started-at="2024-03-15T12:59:34 IST" name="beforeClass" finished-at="2024-03-15T12:59:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:day18.Child2@6c64cb25]" started-at="2024-03-15T12:59:34 IST" name="afterMethod" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:day18.Child2@6c64cb25]" started-at="2024-03-15T12:59:34 IST" name="beforeMethod" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="childTest2b()[pri:0, instance:day18.Child2@6c64cb25]" started-at="2024-03-15T12:59:34 IST" name="childTest2b" finished-at="2024-03-15T12:59:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[child @Test2b]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- childTest2b -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:day18.Child2@6c64cb25]" started-at="2024-03-15T12:59:34 IST" name="afterMethod" finished-at="2024-03-15T12:59:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:day18.Child2@6c64cb25]" started-at="2024-03-15T12:59:34 IST" name="afterClass" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- day18.Child2 -->
       <class name="day17b.Demo2">
-        <test-method signature="deleteUser()[pri:3, instance:day17b.Demo2@6fe7aac8]" started-at="2024-03-14T12:50:13 IST" name="deleteUser" finished-at="2024-03-14T12:50:13 IST" duration-ms="20" status="PASS">
+        <test-method signature="registerUser()[pri:0, instance:day17b.Demo2@4f18837a]" started-at="2024-03-15T12:59:34 IST" name="registerUser" finished-at="2024-03-15T12:59:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[register user]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method signature="editeUser()[pri:1, instance:day17b.Demo2@4f18837a]" started-at="2024-03-15T12:59:34 IST" name="editeUser" finished-at="2024-03-15T12:59:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[edit user]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editeUser -->
+        <test-method signature="deleteUser()[pri:2, instance:day17b.Demo2@4f18837a]" started-at="2024-03-15T12:59:34 IST" name="deleteUser" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[delete user]]>
@@ -18,6 +731,327 @@
           </reporter-output>
         </test-method> <!-- deleteUser -->
       </class> <!-- day17b.Demo2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="day18.Demo8">
+        <test-method is-config="true" signature="open()[pri:0, instance:day18.Demo8@2d7275fc]" started-at="2024-03-15T12:59:34 IST" name="open" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Open the Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method is-config="true" signature="login()[pri:0, instance:day18.Demo8@2d7275fc]" started-at="2024-03-15T12:59:34 IST" name="login" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deleteUser()[pri:0, instance:day18.Demo8@2d7275fc]" started-at="2024-03-15T12:59:34 IST" name="deleteUser" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Delete User]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:day18.Demo8@2d7275fc]" started-at="2024-03-15T12:59:34 IST" name="logout" finished-at="2024-03-15T12:59:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="createUser()[pri:1, instance:day18.Demo8@2d7275fc]" started-at="2024-03-15T12:59:34 IST" name="createUser" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Create User]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:day18.Demo8@2d7275fc]" started-at="2024-03-15T12:59:34 IST" name="login" finished-at="2024-03-15T12:59:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:day18.Demo8@2d7275fc]" started-at="2024-03-15T12:59:34 IST" name="logout" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:day18.Demo8@2d7275fc]" started-at="2024-03-15T12:59:34 IST" name="close" finished-at="2024-03-15T12:59:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- day18.Demo8 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (1) -->
+  <suite started-at="2024-03-15T12:59:34 IST" name="Suite (0)" finished-at="2024-03-15T12:59:34 IST" duration-ms="106">
+    <groups>
+    </groups>
+    <test started-at="2024-03-15T12:59:34 IST" name="Test" finished-at="2024-03-15T12:59:34 IST" duration-ms="106">
+      <class name="day18.Demo3">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:day18.Demo3@3e2e18f2]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create User:Akash pw:A123]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:day18.Demo3@3e2e18f2]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhumi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create User:Bhumi pw:B123]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:day18.Demo3@3e2e18f2]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chandra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Create User:Chandra pw:C123]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- day18.Demo3 -->
+      <class name="day18.Demo1">
+        <test-method signature="test1()[pri:0, instance:day18.Demo1@29626d54]" started-at="2024-03-15T12:59:34 IST" name="test1" finished-at="2024-03-15T12:59:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- day18.Demo1 -->
+      <class name="day18.Demo6">
+        <test-method signature="test1(java.lang.Object)[pri:0, instance:day18.Demo6@5a63f509]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Data:Akash]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.Object)[pri:0, instance:day18.Demo6@5a63f509]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Data:123]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.Object)[pri:0, instance:day18.Demo6@5a63f509]" started-at="2024-03-15T12:59:34 IST" name="test1" data-provider="getData" finished-at="2024-03-15T12:59:34 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Data:true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- day18.Demo6 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+  <suite started-at="2024-03-15T12:59:35 IST" name="Suite (2)" finished-at="2024-03-15T12:59:35 IST" duration-ms="38">
+    <groups>
+    </groups>
+    <test started-at="2024-03-15T12:59:35 IST" name="TestBlock1" finished-at="2024-03-15T12:59:35 IST" duration-ms="19">
+      <class name="day18.Child1">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:day18.Child1@35cabb2a]" started-at="2024-03-15T12:59:35 IST" name="beforeTest" finished-at="2024-03-15T12:59:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:day18.Child1@35cabb2a]" started-at="2024-03-15T12:59:35 IST" name="beforeClass" finished-at="2024-03-15T12:59:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:day18.Child1@35cabb2a]" started-at="2024-03-15T12:59:35 IST" name="beforeMethod" finished-at="2024-03-15T12:59:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="childTest1()[pri:0, instance:day18.Child1@35cabb2a]" started-at="2024-03-15T12:59:35 IST" name="childTest1" finished-at="2024-03-15T12:59:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[child @Test1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- childTest1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:day18.Child1@35cabb2a]" started-at="2024-03-15T12:59:35 IST" name="afterMethod" finished-at="2024-03-15T12:59:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:day18.Child1@35cabb2a]" started-at="2024-03-15T12:59:35 IST" name="afterClass" finished-at="2024-03-15T12:59:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:day18.Child1@35cabb2a]" started-at="2024-03-15T12:59:35 IST" name="afterTest" finished-at="2024-03-15T12:59:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- day18.Child1 -->
+    </test> <!-- TestBlock1 -->
+    <test started-at="2024-03-15T12:59:35 IST" name="TestBlock2" finished-at="2024-03-15T12:59:35 IST" duration-ms="10">
+      <class name="day18.Child2">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:day18.Child2@16d04d3d]" started-at="2024-03-15T12:59:34 IST" name="beforeSuite" finished-at="2024-03-15T12:59:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeSuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:day18.Child2@16d04d3d]" started-at="2024-03-15T12:59:35 IST" name="beforeClass" finished-at="2024-03-15T12:59:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:day18.Child2@16d04d3d]" started-at="2024-03-15T12:59:35 IST" name="beforeTest" finished-at="2024-03-15T12:59:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="childTest2a()[pri:0, instance:day18.Child2@16d04d3d]" started-at="2024-03-15T12:59:35 IST" name="childTest2a" finished-at="2024-03-15T12:59:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[child @Test2a]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- childTest2a -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:day18.Child2@16d04d3d]" started-at="2024-03-15T12:59:35 IST" name="beforeMethod" finished-at="2024-03-15T12:59:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:day18.Child2@16d04d3d]" started-at="2024-03-15T12:59:35 IST" name="afterMethod" finished-at="2024-03-15T12:59:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:day18.Child2@16d04d3d]" started-at="2024-03-15T12:59:35 IST" name="beforeMethod" finished-at="2024-03-15T12:59:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@BeforeMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="childTest2b()[pri:0, instance:day18.Child2@16d04d3d]" started-at="2024-03-15T12:59:35 IST" name="childTest2b" finished-at="2024-03-15T12:59:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[child @Test2b]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- childTest2b -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:day18.Child2@16d04d3d]" started-at="2024-03-15T12:59:35 IST" name="afterClass" finished-at="2024-03-15T12:59:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:day18.Child2@16d04d3d]" started-at="2024-03-15T12:59:35 IST" name="afterMethod" finished-at="2024-03-15T12:59:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:day18.Child2@16d04d3d]" started-at="2024-03-15T12:59:35 IST" name="afterTest" finished-at="2024-03-15T12:59:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:day18.Child2@16d04d3d]" started-at="2024-03-15T12:59:35 IST" name="afterSuite" finished-at="2024-03-15T12:59:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[@AfterSuite]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- day18.Child2 -->
+    </test> <!-- TestBlock2 -->
+  </suite> <!-- Suite (2) -->
 </testng-results>

@@ -1,0 +1,8 @@
+<suite name="Suite">
+  <test name="Test">
+    <packages>
+	  <package name="day17b"/>
+      <package name="day18"/>
+    </packages>
+  </test> 
+</suite> 

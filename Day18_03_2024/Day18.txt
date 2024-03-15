@@ -1,0 +1,62 @@
+How do u run test multiple times and get diff result for each iteration?
+invocationCount
+
+default value-->1 we can use final variable
+
+not allowed: float &  variable
+
+if value is 0 or any -ve number - it will not execute the test
+
+
+run test multiple times but with diff data--> DataProvider
+
+what are the return type supported by DataProvider?
+1. Object[]
+2. Object[][]
+3. Iterator<Object> 
+4. Iterator<Object[]>
+
+Note: 
+number of iteration depends on number of rows  test data
+number of parameter depends on number of columns of test data
+
+How do u execute all/multiple testng class?
+using testng suite (testng.xml)
+
+
+How to create it?
+right click on the package/class --> testNG --> convert to TestNG->finish
+right click on testng.xml ->run as-> testng suite
+
+What is the default execution order of testng annotations
+BS
+BT
+BC
+BM
+@Test
+AM
+AC
+AT
+AS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
