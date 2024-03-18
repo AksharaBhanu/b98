@@ -1,0 +1,46 @@
+TestNG Groups
+
+When we execute using testng.xml --> it will run all test methods--> full regression testing
+
+execute selected test cases which belongs req groups --> regional regression testing
+--> include/ exclude
+--> every time to be run--> alwaysRun=true
+--> dont run--> enabled=false
+
+What is the default execution status of TestNG test
+PASSED
+
+How to change it to FAILED?
+using Assert.fail();
+
+all methods in Assert is static
+all methods of Assert is overloaded
+
+what happens if Assert fails?
+it will not execute remaining code of the current test (other methods will be executed)
+
+
+Diff 		Assert & 			SoftAssert
+1. all methods are static			1. non-static
+2. if fails, it will break test			2. it will continue test
+3. we do not call assertAll			3. we must call assertAll at the end
+4. basic & critical feature			4. others 
+
+
+
+we have 600 tests , out of which 25 is failed, how do rerun only those failed tests?
+
+-> we can re-run only failed tests using 'testng-failed.xml' present test-output folder
+
+we can send data from testng.xml to any method present in TestNG class
+
+parallel
+none
+methods
+classes
+tests
+
+
+Homework: run script on chrome edge and firefox at the same time
+
+
