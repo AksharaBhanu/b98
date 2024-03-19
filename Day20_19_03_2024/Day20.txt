@@ -1,0 +1,20 @@
+compatability testing 
+
+testing app in diff platforms (OS + Browser)
+
+Local system: Windows11+ 78th scripts
+
+(remote system) Selenium Grid
+
+1. how many copy of srcipt: one
+2. where: in local system
+3. click run : only once
+4. where do u click run:local system
+5. script execution: all remote system
+6. how result: 1 res
+7. where : in local system
+
+no need to copy paste script
+
+
+
