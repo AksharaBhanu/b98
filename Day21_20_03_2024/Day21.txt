@@ -1,0 +1,55 @@
+How to update jar file manually?
+1. download the new jar file
+2. copy paste it to lib folder
+3. add to build path 
+4. remove old jar file from build path
+5. delete old jar file
+
+what are the jar files
+1. selenium
+2. commonsio
+3. testng jar files
+4. poi (xls)
+
+Can we automate this?
+Maven --> dependency tool
+
+How to use maven
+1. file -> new ->project
+2. expand maven-> select Maven project
+3. select 'create a simple project'
+4. group id: organisation
+5. artifactid: project
+6. click finish
+
+maven is managed by pom.xml
+pom.xml--> project object model
+in selenium we use src/test branch
+
+How to add jar in Maven project
+1. double click in pom.xml file
+2. goto 2nd tab (dependencies)
+3. click add
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.18.1</version>
+</dependency>
+
+in which location the jar files will be downloaded/stored by maven?
+.m2/repository
+
+where it is listed?
+maven Dependencies
+
+Surefire plugin
+--> execute testng.xml from pom.xml
+
+https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html
+
+if we execute test from pom.xml then result will be target/surefire-reports/emailable-report.html
+
+TO handle excel file we use POI jar files given by Apache
+poi & poi-ooxml

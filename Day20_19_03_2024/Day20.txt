@@ -16,5 +16,19 @@ Local system: Windows11+ 78th scripts
 
 no need to copy paste script
 
+How to setup selenium grid?
+1. in remote system --> JDK Selenium jar file , browser and web app
+2. in remote system we dont need: Eclipse , Automation script not required
+
+steps:
+1. login to remote system
+2. copy paste selenium jar file
+3. open cmd prompt execute below cmd
+java -jar selenium-server-4.18.1.jar standalone --port 4455
+4. we get a message "Started Selenium Standalone 4.18.1: http://192.168.29.187:4444
+
+in Automation script use RemoteWebDriver instead of Browser specific Driver
+ex: 
+WebDriver driver=new RemoteWebDriver(new URL("http://localhost:4444"), new ChromeOptions());
 
 
