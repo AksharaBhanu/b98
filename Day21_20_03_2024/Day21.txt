@@ -53,3 +53,6 @@ if we execute test from pom.xml then result will be target/surefire-reports/emai
 
 TO handle excel file we use POI jar files given by Apache
 poi & poi-ooxml
+
+reading is always based on index ( starts from 0)
+

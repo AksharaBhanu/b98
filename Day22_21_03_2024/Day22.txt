@@ -1,0 +1,14 @@
+while reading data from excel we must use only index of the row and column
+index starts from 0
+
+
+row present & cell present
+row present & cell not present
+row & cell not present
+
+Home Work
+read un & pw from excel , use it in selenium to login to POS , get the homepage title
+and store it back in excel 
+
+HashMap---> key -value
+files--> property file---> .properties

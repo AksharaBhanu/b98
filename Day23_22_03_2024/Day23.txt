@@ -1,0 +1,7 @@
+best practice while developing method
+1. by default method should be public & static
+2. make the method as non-static only if it is accessing any non-static member of the class
+3. Do not throw any exception , handle it
+4. Do not hardcode any input--> use method arg
+5. return the value
+6. in catch block print stack trace
