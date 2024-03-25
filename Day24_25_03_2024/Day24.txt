@@ -1,0 +1,64 @@
+How do we execute Automation Framework?
+1. we execute pom.xml
+	a.update jar files
+ 	b.compile java code
+	c.execute testng.xml
+2. testng.xml will execute all test present in script package
+3. all Testclass (@Test) extends BaseTest (BS AS BM AM)
+	a.BeforeSuite
+	b.BeforeMethod
+	c.Test
+	d.AfterMethod
+	e.AfterSuite
+4. BeforeSuite->initialize extent report
+5. BeforeMethod->
+		a. get TestMethod Name , create a test in extent report with the same name
+		b. get URL times from property file
+		c. open the browser
+		d. enter url		
+		f. maximize browser
+		g. set ITO	
+		h. set ETO
+6. Test-> performs action as per test case steps
+7. Aftermethod->
+		a. get TestMethod Name
+		b. get test execution status: 1-P 2-F 3-S
+		c. take screenshot if test is failed 
+		d. close the browser
+
+8. AfterSuite:
+		generate report
+
+
+AFW design
+1. creating project
+2. creating std lib
+3. creating std files and folder structure
+4. define rules
+
+Who ?
+Automation Architect:role
+
+How?
+Past exp & project
+
+After designing AFW , architect push it github
+How to upload AFW to github?
+steps:
+1. login to github
+2. profile->settings-developer settings
+3. Personal access tokens->tokens(classic)
+4. Generate new token->claassic
+5. specify note,select scopes (all)
+6. click generate token and copy paste the token
+7. create new repository
+
+https://github.com/AksharaBhanu/B98AFW.git
+
+
+
+
+
+		
+		
+	
