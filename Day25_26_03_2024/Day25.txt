@@ -1,0 +1,81 @@
+How to share Automation Framework into github
+
+
+1. Right click on Project->team-> share project
+2. select checkbox,click location
+3. click create repository, click finish
+4.  Right click on Project->team->commit
+5. click ++, specify commit message
+6. click commit and push
+
+How to import AFW from git to local system
+1. file ->import
+2. git->project from git->next
+3. clone URI
+4. specify URI ,UN & token
+
+Convert Manual Test cases into Automation scripts?
+1. Which test case u will automate?
+   only regression
+
+2. How do u know which one is regression test case?
+   it will be informed by Manual Testing team
+
+3. will you automate -ve test case?
+ 	yes only if it is part of regression suite
+
+4. will you automate FT/IT/ST?
+ 	yes only if it is part of regression suite
+
+5. which test case 1st ?
+   smoke testcase which are part of regression suite (Sanity)-Dry run
+
+Sample Test Case
+Test Case Name: Valid Login
+1. precondtion: Login Page: https://pos.aksharatraining.in/pos/public/login
+2. steps
+	1. enter valid un: admin
+	2. enter valid pw: pointofsale
+	3. click on go button
+3. verification: Home page should be displayed
+
+Steps to convert MTC & Automation Script
+
+1. execute the test case manually--System Study
+2. while executing test case note down -
+	page 		element 	action
+	LoginPage	Username	enter
+	LoginPage	password	enter
+	LoginPage	go 		click
+	HomePage	logout		verify present
+3. for each page create respective POM Class  (ends with Page)
+
+	a. declaration-->@FindBy
+	b. intialization---> PageFactory
+	c. utilization--> getters/setters
+
+
+method name should be readable	
+by default method should be public & static 
+if it access atleast 1 non-static member of the class then it should be non-static
+do not throw exception- handle it
+in catch block print statcktrace
+do not use any hardcoded value-use arg
+Do not write Assert in POM class, it should be in TestNG class
+verification method should return boolean value
+
+
+4. create Test Class
+  1. create a class inside script package, Name should be same as respective TestCase ID /Name
+  2. every Test Class shoule extend BaseTest class
+  3. we should write Test Method inside Test class (name should start with test) with priority
+  4. specify manual test case steps as in-line comment
+  5. below each comment , call respective POM class method
+
+
+
+
+ 
+
+   
+
