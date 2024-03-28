@@ -1,0 +1,83 @@
+When do we execute AFW?
+when we get new build
+
+How to execute AFW when u get new build automatically
+we integrate our AFW with jenkins (devops)
+
+percondition
+1. Jenkins should be installed and configuerd -- Devops
+2. AFW should be update in github- use grid---We (automation team)
+3. integrate AFW-->Devops/AT
+
+jenkins- CI/CD tool -web application
+
+Steps:
+1. login to jenkins 
+2. click new item
+3. specify the name
+4. select maven project & click ok
+5. SCM->git-> paste github URL, select credentials
+7. Post-build Actions->Publish HTML report->add
+8. specify folder where html report is present (target)
+9. specify html file name (spark.html)
+10. if required specify page title and report title
+11. click save
+
+
+
+How to run?
+1. run manually
+	a. login to jenkins
+	b. click the automation project
+	c. Build Now
+			i. download AFW from github to jenkins server
+			ii. execute pom.xml
+				update jar files
+				compile the code
+				execute testng.xml
+2. how to view detailed result?
+	a. project
+	b. click on the link under Build History
+	c. console output
+
+3. how to execute AFW from jenkins at specify date & time?
+ (schedule)
+    a. select the project
+b. click configure
+c. build triggers
+d. select Build periodically
+	50 11 28 3 4--> Thursday March 28th at 11.50AM
+	00 18 * * *--> every day at 6PM
+
+How do u execute AFW automatically when we get build from Dev team?
+	
+project
+configure
+build triggers
+build after other projects are build
+projects to watch (DevBuildName)
+Trigger only of the build is stable
+
+
+Todo: Bhanu
+1. how to configure testng parameter in jenkins-->This project is parameterized
+
+2. Sample CV, mock interview questions
+
+3. Manual Test Case of POS application
+
+4. git merging
+
+
+
+
+
+
+
+
+
+
+
+
+
+

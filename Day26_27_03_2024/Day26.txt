@@ -1,0 +1,87 @@
+test case 2: Invalid Login
+precondtion: Login page
+Steps:
+
+1. enter invalid un
+2. enter invalid pwd
+3. click go
+4. verify err msg is displayed
+-----------------------------------------------------
+execute the test case manually--System Study
+while executing test case note down -
+	page 		element 	action
+	LoginPage	username	enter
+	LoginPage	password	enter
+	LoginPage	go		click
+	Loginpage	err msg		verify displayed
+for each page create respective POM Class  (ends with Page)
+Automation Framework Architecture (details)
+1. we execute the FW using pom.xml
+	a. update the jar file (from maven central repo to Maven local repo)
+	b. compile the java code
+	c. execute testng.xml
+2. testng.xml-> 
+	a.create and initalize parameters
+	b.execute the test class present in script package
+3. in our framework every Test Class extends BaseTest, which implements IAutoConst interface
+	a.IAutoConst contains constants such as XL_PATH CONFIG_PATH....
+	b. BaseTest contains --> BeforeSuite,AfterSuite,BeforeMethod,AfterMethod
+	c. Test class contains @Test method
+4. BeforeSuite:
+	a.initialize extent report
+
+5. BeforeMethod
+	a. get the @Test Name and create a test in extent report
+	b. read the data from property file
+	c. open the specified browser in local/remote system based on the given parameters
+	d.enter the URL
+	e. maximize browser
+	f. set ITO
+	g. set ETO
+6. @Test
+	a. get the data from excel file
+	b. call the method present in POM class and perform the action as per test case steps
+	c. Assert the result
+7. AfterMethod
+	a. check the test execution status (PASS/FAIL/SKIP)
+	b. take the screenshot if test is FAILED and attach it to extent report
+	c. close the browser
+
+8. AfterSuite
+       it will generate/publish the extent report
+
+
+TestNG Framework
+POM	Framework
+Data Driven Framework
+Method Driven Framework
+Module driven FrameWork
+
+Hybrid FrameWork
+
+combination of 2 or more 
+
+How do u execute ur framework?
+using pom.xml
+
+When do u execute ur framework?
+build is ready (when we get new build)
+
+Jenkins -CIT--> CI/CD-Devops
+
+1. AFW & script should be present in gitHUB
+2. we should share git hub url (URI) to devops team
+3. jenkins will be installed and configured by DevOps Teams ( jenins server-AWS)
+4. link AFW to jenkins and schedule the execution
+
+
+
+
+
+
+
+
+
+
+
+
